@@ -58,7 +58,7 @@ const loadTube = async (id) => {
           <div class="flex gap-3 items-center">
               <div><p class=""> ${element.authors[0].profile_name
               } </p></div>
-              <div>${(element.authors[0].verified? "<img src=./img/bage.svg>" : "")}</div>
+              <div>${(element.authors[0].verified? "<img src= ./img/bage.svg>" : "")}</div>
           </div>
           <div><p>${element.others.views
           }</p></div>
