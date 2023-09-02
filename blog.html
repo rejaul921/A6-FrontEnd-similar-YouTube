@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phero Tube</title>
+    <link rel="shortcut icon" href="./img/Logo.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.6.4/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <!-- nav section -->
+    <nav class="w-11/12 mx-auto p-5 flex justify-between gap-1 items-center">
+        <div>
+            <img class="" src="./img/Logo.png" alt="">
+        </div>
+        <!-- <div>
+            <button class="btn p-2">Sort By View</button>
+        </div> -->
+        <div><button class="btn p-2 bg-red-600">BLOG</button></div>
+    </nav>
+    <hr>
+    <!-- main section -->
+    <div class="w-11/12 mx-auto text-center mt-10">
+        <div class="collapse collapse-arrow bg-base-200">
+            <input type="radio" name="my-accordion-2" checked="checked" /> 
+            <div class="collapse-title text-xl font-medium">
+                Discuss the scope of var, let, and const
+            </div>
+            <div class="collapse-content"> 
+              <p>In JS var,let and const are used to declare a variables.
+                variables declared by "var" is functional scope means they are accesible from anywhere within the function."var" has Hoisting behaivor. <br> Variables declared by "let and const" are block scope which means these variables are accesible only from the block they are declared.
+                <br>
+              </p>
+            </div>
+          </div>
+          <div class="collapse collapse-arrow bg-base-200">
+            <input type="radio" name="my-accordion-2" /> 
+            <div class="collapse-title text-xl font-medium">
+                Tell us the use cases of null and undefined
+            </div>
+            <div class="collapse-content"> 
+              <p>There are diffrents ways find null and undefined in JS.
+                <br> variables that are not assigned to any values are undefined.Usually these are kept for further use to store data.Object properties which does exist trying to access them also retrun undefined.This is usefull for looking Object property.
+                <br>
+                Null is used to show that the object or variables has no value.
+              </p>
+            </div>
+          </div>
+          <div class="collapse collapse-arrow bg-base-200">
+            <input type="radio" name="my-accordion-2" /> 
+            <div class="collapse-title text-xl font-medium">
+                What do you mean by REST API?
+            </div>
+            <div class="collapse-content"> 
+              <p>REST API is Representational State Transfer Application Programming Interface.
+                It works like when you request to get something over internet or links it does the works in a systematic way and returns you the value from the links.For example to get data from database we request a propose then it returns a value to us. It has a set of rules and functions that allows us to communicate with the server.
+                <br>
+              </p>
+            </div>
+          </div>
+
+    </div>
+</body>
+</html>

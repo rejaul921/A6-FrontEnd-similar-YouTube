@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phero Tube</title>
+    <link rel="shortcut icon" href="./img/Logo.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.6.4/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <!-- nav section -->
+    <nav class="w-11/12 mx-auto p-5 flex justify-between gap-1 items-center">
+        <div>
+            <img class="" src="../img/Logo.png" alt="">
+        </div>
+        <div>
+            <button class="btn p-2">Sort By View</button>
+        </div>
+        <div><button onclick="blogPage()" class="btn p-2 bg-red-600">BLOG</button></div>
+    </nav>
+    <hr>
+    <!-- main section -->
+    <div class="w-11/12 mx-auto mt-10">
+        <div class="mx-auto text-center">
+            <img class="mx-auto" src="../img/Icon.png" alt="">
+        </div>
+        <div class="text-center mt-10">
+            <h2 class="text-2xl font-bold">
+                Oops!! Sorry, There is No content here.
+            </h2>
+        </div>
+
+    </div>
+    <script>function blogPage(){
+        window.location.href = '../blog.html'
+    }</script>
+</body>
+</html>
